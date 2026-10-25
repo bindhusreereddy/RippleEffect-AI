@@ -1,0 +1,209 @@
+{
+  "sites": {
+    "site_a": {
+      "id": "site_a",
+      "name": "Hogtown Creek Basin (Site A - Uplands)",
+      "city": "Gainesville, FL (Gator Hack Study Area)",
+      "description": "Sloping urban-fringe watershed dropping from NW 39th Ave ridge into Hogtown Creek ravine. Vulnerable to fast runoff peaks.",
+      "grid_size": { "rows": 12, "cols": 12 },
+      "cell_area_m2": 100,
+      "center_coords": { "lat": 29.6728, "lng": -82.3685 },
+      "elevation_matrix": [
+        [52.0, 51.5, 51.0, 50.2, 49.5, 48.8, 48.0, 47.1, 46.2, 45.4, 44.5, 43.8],
+        [51.2, 50.8, 50.1, 49.4, 48.6, 47.9, 47.0, 46.2, 45.3, 44.4, 43.5, 42.7],
+        [50.3, 49.8, 49.0, 48.2, 47.5, 46.7, 45.8, 45.0, 44.1, 43.1, 42.1, 41.2],
+        [49.1, 48.5, 47.8, 47.0, 46.1, 45.2, 44.3, 43.4, 42.4, 41.3, 40.2, 39.4],
+        [47.8, 47.1, 46.3, 45.5, 44.5, 43.6, 42.6, 41.6, 40.5, 39.3, 38.2, 37.5],
+        [46.2, 45.4, 44.6, 43.7, 42.7, 41.7, 40.6, 39.5, 38.3, 37.1, 36.0, 35.2],
+        [44.5, 43.6, 42.7, 41.7, 40.6, 39.5, 38.2, 37.0, 35.8, 34.6, 33.5, 32.8],
+        [42.6, 41.7, 40.7, 39.6, 38.4, 37.2, 35.9, 34.6, 33.3, 32.0, 31.0, 30.2],
+        [40.8, 39.8, 38.7, 37.5, 36.2, 34.9, 33.5, 32.1, 30.8, 29.6, 28.7, 28.0],
+        [38.9, 37.8, 36.6, 35.3, 33.9, 32.5, 31.0, 29.6, 28.4, 27.5, 26.8, 26.2],
+        [37.0, 35.9, 34.6, 33.1, 31.6, 30.1, 28.7, 27.5, 26.5, 25.8, 25.2, 24.8],
+        [35.2, 34.0, 32.7, 31.2, 29.6, 28.1, 26.8, 25.7, 24.9, 24.3, 23.9, 23.5]
+      ],
+      "land_cover_matrix": [
+        ["grass", "grass", "grass", "forest", "forest", "grass", "grass", "grass", "residential_roof", "residential_roof", "grass", "grass"],
+        ["grass", "grass", "grass", "forest", "forest", "grass", "grass", "residential_roof", "residential_roof", "pavement", "grass", "grass"],
+        ["grass", "grass", "forest", "forest", "grass", "grass", "grass", "pavement", "pavement", "pavement", "grass", "grass"],
+        ["forest", "forest", "forest", "grass", "grass", "grass", "grass", "grass", "pavement", "grass", "grass", "grass"],
+        ["forest", "forest", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass"],
+        ["grass", "forest", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "forest", "forest"],
+        ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "forest", "forest", "forest", "wetland"],
+        ["grass", "grass", "pavement", "pavement", "grass", "grass", "grass", "forest", "forest", "forest", "wetland", "wetland"],
+        ["grass", "residential_roof", "pavement", "pavement", "grass", "grass", "forest", "forest", "wetland", "wetland", "wetland", "water"],
+        ["grass", "residential_roof", "grass", "grass", "grass", "forest", "forest", "wetland", "wetland", "wetland", "water", "water"],
+        ["grass", "grass", "grass", "forest", "forest", "forest", "wetland", "wetland", "water", "water", "water", "water"],
+        ["forest", "forest", "forest", "forest", "wetland", "wetland", "wetland", "water", "water", "water", "water", "water"]
+      ]
+    },
+    "site_b": {
+      "id": "site_b",
+      "name": "Sweetwater / Depot Flats (Site B - Lowland Plain)",
+      "city": "Gainesville, FL (Gator Hack Study Area)",
+      "description": "Flat, historic floodplain adjacent to Downtown / Depot Basin with dense infrastructure and frequent historical news flood reports.",
+      "grid_size": { "rows": 12, "cols": 12 },
+      "cell_area_m2": 100,
+      "center_coords": { "lat": 29.6435, "lng": -82.3242 },
+      "elevation_matrix": [
+        [24.5, 24.4, 24.3, 24.2, 24.1, 24.0, 23.9, 23.8, 23.7, 23.6, 23.5, 23.4],
+        [24.3, 24.2, 24.1, 24.0, 23.9, 23.8, 23.7, 23.6, 23.5, 23.4, 23.3, 23.2],
+        [24.1, 24.0, 23.9, 23.8, 23.7, 23.6, 23.5, 23.4, 23.3, 23.2, 23.1, 23.0],
+        [23.9, 23.8, 23.7, 23.6, 23.5, 23.4, 23.3, 23.2, 23.1, 23.0, 22.9, 22.8],
+        [23.7, 23.6, 23.5, 23.4, 23.3, 23.2, 23.1, 23.0, 22.9, 22.8, 22.7, 22.6],
+        [23.5, 23.4, 23.3, 23.2, 23.1, 23.0, 22.9, 22.8, 22.7, 22.6, 22.5, 22.4],
+        [23.3, 23.2, 23.1, 23.0, 22.9, 22.8, 22.7, 22.6, 22.5, 22.4, 22.3, 22.2],
+        [23.1, 23.0, 22.9, 22.8, 22.7, 22.6, 22.5, 22.4, 22.3, 22.2, 22.1, 22.0],
+        [22.9, 22.8, 22.7, 22.6, 22.5, 22.4, 22.3, 22.2, 22.1, 22.0, 21.9, 21.8],
+        [22.7, 22.6, 22.5, 22.4, 22.3, 22.2, 22.1, 22.0, 21.9, 21.8, 21.7, 21.6],
+        [22.5, 22.4, 22.3, 22.2, 22.1, 22.0, 21.9, 21.8, 21.7, 21.6, 21.5, 21.4],
+        [22.3, 22.2, 22.1, 22.0, 21.9, 21.8, 21.7, 21.6, 21.5, 21.4, 21.3, 21.2]
+      ],
+      "land_cover_matrix": [
+        ["grass", "pavement", "pavement", "commercial_roof", "commercial_roof", "pavement", "grass", "grass", "residential_roof", "residential_roof", "grass", "grass"],
+        ["pavement", "pavement", "pavement", "commercial_roof", "commercial_roof", "pavement", "grass", "grass", "residential_roof", "residential_roof", "grass", "grass"],
+        ["grass", "grass", "pavement", "pavement", "pavement", "pavement", "grass", "grass", "grass", "pavement", "grass", "grass"],
+        ["grass", "grass", "grass", "grass", "pavement", "pavement", "grass", "grass", "grass", "pavement", "grass", "grass"],
+        ["grass", "grass", "grass", "grass", "grass", "pavement", "grass", "grass", "grass", "pavement", "grass", "grass"],
+        ["grass", "grass", "grass", "grass", "grass", "pavement", "grass", "grass", "grass", "grass", "grass", "grass"],
+        ["grass", "grass", "grass", "grass", "grass", "pavement", "pavement", "pavement", "grass", "grass", "wetland", "wetland"],
+        ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "pavement", "grass", "grass", "wetland", "wetland"],
+        ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "pavement", "wetland", "wetland", "wetland", "water"],
+        ["grass", "grass", "grass", "grass", "grass", "grass", "grass", "grass", "wetland", "wetland", "water", "water"],
+        ["grass", "grass", "grass", "grass", "grass", "grass", "wetland", "wetland", "water", "water", "water", "water"],
+        ["grass", "grass", "grass", "grass", "wetland", "wetland", "wetland", "water", "water", "water", "water", "water"]
+      ]
+    }
+  },
+  "land_cover_types": {
+    "grass": { "name": "Open Lawn / Grassland", "c": 0.20, "color": "#4ade80", "description": "Permeable turf with high natural infiltration" },
+    "forest": { "name": "Native Tree Canopy", "c": 0.15, "color": "#15803d", "description": "High interception and deep root infiltration" },
+    "bare_soil": { "name": "Compacted / Bare Soil", "c": 0.50, "color": "#d97706", "description": "Moderate permeability with erosion vulnerability" },
+    "residential_roof": { "name": "Residential Pitched Roof", "c": 0.85, "color": "#f87171", "description": "Impervious surface shedding direct roof runoff" },
+    "commercial_roof": { "name": "Commercial Flat Roof", "c": 0.90, "color": "#ef4444", "description": "Highly impervious roof shedding concentrated volumes" },
+    "pavement": { "name": "Asphalt / Standard Concrete", "c": 0.90, "color": "#64748b", "description": "Impervious roadway or conventional parking" },
+    "permeable_pavement": { "name": "Permeable Interlocking Pavers", "c": 0.35, "color": "#38bdf8", "description": "Engineered porous sub-base allowing stormwater percolation" },
+    "rain_garden": { "name": "Bio-retention Rain Garden", "c": 0.15, "color": "#06b6d4", "description": "Excavated engineered soil pocket capturing and filtering water" },
+    "retention_basin": { "name": "Stormwater Detention Basin", "c": 0.10, "color": "#0284c7", "description": "Engineered depression temporarily holding peak storm surges" },
+    "wetland": { "name": "Riparian Wetland Buffer", "c": 0.05, "color": "#059669", "description": "Natural floodplain vegetation with sponge absorption capacity" },
+    "water": { "name": "Creek / Open Waterbody", "c": 1.00, "color": "#2563eb", "description": "Existing natural conveyance stream receiving runoff" }
+  },
+  "rainfall_presets": [
+    { "name": "2-Year Storm (Typical Summer Thunderstorm)", "rainfall_mm": 35.0, "description": "Common convective afternoon storm" },
+    { "name": "10-Year Storm (Design Heavy Rain)", "rainfall_mm": 65.0, "description": "Standard municipal stormwater design event" },
+    { "name": "50-Year Storm (Tropical Depression)", "rainfall_mm": 110.0, "description": "Severe tropical moisture band" },
+    { "name": "100-Year Storm (Category 3 Hurricane Outer Bands)", "rainfall_mm": 150.0, "description": "Extreme regional inundation scenario" }
+  ],
+  "scenario_presets": [
+    {
+      "id": "parking_lot",
+      "name": "Commercial Strip & 12-Bay Parking Lot",
+      "description": "Replaces 12 grass cells with conventional asphalt pavement in upper watershed.",
+      "site_id": "site_a",
+      "rainfall_mm": 65.0,
+      "edits": [
+        { "row": 2, "col": 3, "land_cover": "pavement" },
+        { "row": 2, "col": 4, "land_cover": "pavement" },
+        { "row": 2, "col": 5, "land_cover": "pavement" },
+        { "row": 3, "col": 3, "land_cover": "pavement" },
+        { "row": 3, "col": 4, "land_cover": "pavement" },
+        { "row": 3, "col": 5, "land_cover": "pavement" },
+        { "row": 4, "col": 3, "land_cover": "pavement" },
+        { "row": 4, "col": 4, "land_cover": "pavement" },
+        { "row": 4, "col": 5, "land_cover": "pavement" },
+        { "row": 5, "col": 3, "land_cover": "pavement" },
+        { "row": 5, "col": 4, "land_cover": "pavement" },
+        { "row": 5, "col": 5, "land_cover": "pavement" }
+      ]
+    },
+    {
+      "id": "apartment_complex",
+      "name": "High-Density Student Housing Complex",
+      "description": "Clears forest and lawn cells to erect multi-story residential building and apron.",
+      "site_id": "site_a",
+      "rainfall_mm": 65.0,
+      "edits": [
+        { "row": 3, "col": 0, "land_cover": "commercial_roof" },
+        { "row": 3, "col": 1, "land_cover": "commercial_roof" },
+        { "row": 4, "col": 0, "land_cover": "commercial_roof" },
+        { "row": 4, "col": 1, "land_cover": "commercial_roof" },
+        { "row": 5, "col": 0, "land_cover": "pavement" },
+        { "row": 5, "col": 1, "land_cover": "pavement" },
+        { "row": 4, "col": 2, "land_cover": "pavement" },
+        { "row": 5, "col": 2, "land_cover": "pavement" }
+      ]
+    },
+    {
+      "id": "road_widening",
+      "name": "Corridor 4-Lane Road Widening",
+      "description": "Expands 2-lane road into 4 lanes by paving roadside grass swales.",
+      "site_id": "site_a",
+      "rainfall_mm": 65.0,
+      "edits": [
+        { "row": 1, "col": 6, "land_cover": "pavement" },
+        { "row": 2, "col": 6, "land_cover": "pavement" },
+        { "row": 3, "col": 6, "land_cover": "pavement" },
+        { "row": 4, "col": 6, "land_cover": "pavement" },
+        { "row": 5, "col": 6, "land_cover": "pavement" },
+        { "row": 6, "col": 6, "land_cover": "pavement" },
+        { "row": 7, "col": 6, "land_cover": "pavement" }
+      ]
+    },
+    {
+      "id": "green_retrofit",
+      "name": "Green Infrastructure & Rain Garden Retrofit",
+      "description": "Converts degraded pavement into permeable pavers and bio-retention swales.",
+      "site_id": "site_a",
+      "rainfall_mm": 65.0,
+      "edits": [
+        { "row": 2, "col": 7, "land_cover": "permeable_pavement" },
+        { "row": 2, "col": 8, "land_cover": "permeable_pavement" },
+        { "row": 3, "col": 8, "land_cover": "rain_garden" },
+        { "row": 7, "col": 2, "land_cover": "permeable_pavement" },
+        { "row": 7, "col": 3, "land_cover": "rain_garden" }
+      ]
+    }
+  ],
+  "mitigation_catalog": [
+    {
+      "id": "permeable_pavement",
+      "name": "Permeable Interlocking Concrete Pavers (PICP)",
+      "cost_per_m2": 45.0,
+      "target_land_cover": "permeable_pavement",
+      "target_original_covers": ["pavement", "commercial_roof"],
+      "runoff_coefficient": 0.35,
+      "reduction_percent": 61.1,
+      "description": "Replaces standard asphalt with porous joint pavers that allow water to filter into a crushed stone reservoir."
+    },
+    {
+      "id": "rain_garden",
+      "name": "Bio-retention Rain Garden Swale",
+      "cost_per_m2": 30.0,
+      "target_land_cover": "rain_garden",
+      "target_original_covers": ["pavement", "bare_soil", "grass"],
+      "runoff_coefficient": 0.15,
+      "reduction_percent": 83.3,
+      "description": "Shallow planted depression with native sandy loam and wetland flora that absorbs stormwater pulses."
+    },
+    {
+      "id": "retention_basin",
+      "name": "Engineered Infiltration Basin / Cistern",
+      "cost_per_m2": 65.0,
+      "target_land_cover": "retention_basin",
+      "target_original_covers": ["pavement", "commercial_roof", "residential_roof"],
+      "runoff_coefficient": 0.10,
+      "reduction_percent": 88.9,
+      "description": "High-capacity subsurface storage or surface retention cell providing peak surge attenuation."
+    },
+    {
+      "id": "forest_restoration",
+      "name": "Urban Tree Canopy & Native Revegetation",
+      "cost_per_m2": 15.0,
+      "target_land_cover": "forest",
+      "target_original_covers": ["bare_soil", "grass"],
+      "runoff_coefficient": 0.15,
+      "reduction_percent": 25.0,
+      "description": "Restores canopy cover, improving interception and soil porosity at lowest cost per unit area."
+    }
+  ]
+}

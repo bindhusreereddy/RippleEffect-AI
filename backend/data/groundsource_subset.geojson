@@ -1,0 +1,284 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Google Groundsource Flash Flood Observations Subset (Alachua Watershed Focus)",
+    "provenance": "Google Research Groundsource Open Dataset (Released March 2026)",
+    "zenodo_doi": "10.5281/zenodo.18647054",
+    "catalog_url": "https://gee-community-catalog.org/projects/groundsource/",
+    "extraction_model": "Gemini Multimodal Disaster News Processing Pipeline",
+    "license": "CC-BY-4.0",
+    "spatial_resolution": "Neighborhood / Street Intersections",
+    "temporal_coverage": "2018 - 2025",
+    "total_records": 16,
+    "scientific_caveats": [
+      "Extracted from news reports via Gemini NLP entity recognition and temporal anchoring.",
+      "Susceptible to reporting bias: urban centers and affluent corridors generate more news mentions than unpopulated areas.",
+      "Not a calibrated hydraulic depth model or parcel-level inundation probability guarantee.",
+      "Provides empirical historical disaster context to prioritize stormwater mitigation."
+    ],
+    "provenance_status": "unverified_legacy_fixture_not_used",
+    "notice": "Historical development fixture. Not loaded by the application. See groundsource_verified_florida.geojson for authenticated records."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3582,
+          29.6641
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2024-FL-0412",
+        "site_id": "site_a",
+        "grid_row": 8,
+        "grid_col": 8,
+        "headline": "Hogtown Creek overflows banks after 4.2-inch deluge, submerging trail crossings",
+        "source": "The Gainesville Sun",
+        "published_date": "2024-08-05",
+        "event_date": "2024-08-04",
+        "location_name": "NW 8th Ave & Hogtown Creek Greenway",
+        "severity": "severe",
+        "impact_type": "Stream overtopping & greenway flooding",
+        "gemini_confidence": 0.96,
+        "excerpt": "Rapid stormwater runoff from upland commercial zones surged into Hogtown Creek, pushing waters two feet over downstream footbridges within 45 minutes.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3551,
+          29.6625
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2024-FL-0520",
+        "site_id": "site_a",
+        "grid_row": 10,
+        "grid_col": 9,
+        "headline": "Retention ditch overflow cuts off residential cul-de-sac during tropical downpour",
+        "source": "WCJB TV 20 News",
+        "published_date": "2024-09-12",
+        "event_date": "2024-09-12",
+        "location_name": "Lower Hogtown Confluence",
+        "severity": "moderate",
+        "impact_type": "Drainage ditch surcharge & street ponding",
+        "gemini_confidence": 0.93,
+        "excerpt": "County emergency crews deployed pumps after culverts jammed with debris and downstream wetlands reached saturation capacity.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.361,
+          29.668
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2023-FL-1088",
+        "site_id": "site_a",
+        "grid_row": 7,
+        "grid_col": 3,
+        "headline": "Sheet runoff from shopping center inundates downhill driveways",
+        "source": "WUFT Public Media",
+        "published_date": "2023-07-28",
+        "event_date": "2023-07-27",
+        "location_name": "NW 34th Blvd Commercial Apron",
+        "severity": "minor",
+        "impact_type": "Pavement sheetflow & driveway ponding",
+        "gemini_confidence": 0.91,
+        "excerpt": "Neighbors reported heavy sheet runoff cascading off newly resurfaced parking stalls down toward adjacent residential swales.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.353,
+          29.6601
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2022-FL-0914",
+        "site_id": "site_a",
+        "grid_row": 11,
+        "grid_col": 11,
+        "headline": "Wetland preserve perimeter flooded during Hurricane Ian outer spiral bands",
+        "source": "Gainesville Sun",
+        "published_date": "2022-09-30",
+        "event_date": "2022-09-29",
+        "location_name": "Hogtown Creek Outlet Marsh",
+        "severity": "severe",
+        "impact_type": "Floodplain marsh saturation",
+        "gemini_confidence": 0.97,
+        "excerpt": "Runoff from across northwest Gainesville converged on the low-lying outlet marsh, cresting 3.1 feet above typical autumn levels.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3235,
+          29.644
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2024-FL-0115",
+        "site_id": "site_b",
+        "grid_row": 3,
+        "grid_col": 5,
+        "headline": "Depot Park basin overflow threatens historic rail corridor structures",
+        "source": "WUFT News",
+        "published_date": "2024-04-18",
+        "event_date": "2024-04-17",
+        "location_name": "Depot Park & SE 4th St",
+        "severity": "severe",
+        "impact_type": "Urban flash flooding & road closures",
+        "gemini_confidence": 0.98,
+        "excerpt": "Downtown storm sewers backed up as continuous rainfall dumped 5 inches over 3 hours, turning roadways into standing canals.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.321,
+          29.6415
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2024-FL-0678",
+        "site_id": "site_b",
+        "grid_row": 6,
+        "grid_col": 7,
+        "headline": "Flash flood submerges vehicles on South Main Street underpass",
+        "source": "WCJB TV 20 News",
+        "published_date": "2024-08-06",
+        "event_date": "2024-08-05",
+        "location_name": "South Main St & Depot Ave",
+        "severity": "severe",
+        "impact_type": "Vehicle strandings & severe road inundation",
+        "gemini_confidence": 0.95,
+        "excerpt": "Gainesville Fire Rescue assisted three stranded motorists after sudden storm drainage failure left 3 feet of water under the rail bridge.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.325,
+          29.6455
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2023-FL-0322",
+        "site_id": "site_b",
+        "grid_row": 1,
+        "grid_col": 2,
+        "headline": "Commercial warehouse district reports repeated floor flooding during summer storm",
+        "source": "The Gainesville Sun",
+        "published_date": "2023-06-19",
+        "event_date": "2023-06-18",
+        "location_name": "Sweetwater Industrial District",
+        "severity": "moderate",
+        "impact_type": "Commercial facility water intrusion",
+        "gemini_confidence": 0.92,
+        "excerpt": "Flat asphalt lots and lack of permeable storage led to repeated localized ponding reaching warehouse roll-up doorways.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3195,
+          29.639
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2023-FL-0941",
+        "site_id": "site_b",
+        "grid_row": 9,
+        "grid_col": 10,
+        "headline": "Sweetwater Branch wetlands exceed bankfull stage following Hurricane Idalia rains",
+        "source": "Florida Climate Center",
+        "published_date": "2023-08-31",
+        "event_date": "2023-08-30",
+        "location_name": "Sweetwater Wetland Park Outfall",
+        "severity": "moderate",
+        "impact_type": "Wetland cell overtopping",
+        "gemini_confidence": 0.94,
+        "excerpt": "Constructed wetland cells successfully buffered 80% of urban surge, but adjacent trail connections were closed for 4 days.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3225,
+          29.6428
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2022-FL-0518",
+        "site_id": "site_b",
+        "grid_row": 4,
+        "grid_col": 4,
+        "headline": "Intense cloudburst overwhelms downtown storm drains, filling parking lots",
+        "source": "The Independent Florida Alligator",
+        "published_date": "2022-09-15",
+        "event_date": "2022-09-14",
+        "location_name": "SE 2nd Ave Commercial Strip",
+        "severity": "moderate",
+        "impact_type": "Parking lot submergence & basement seepage",
+        "gemini_confidence": 0.89,
+        "excerpt": "University area businesses experienced floor seepage after 3.8 inches fell in less than 90 minutes on unshaded paved aprons.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.326,
+          29.647
+        ]
+      },
+      "properties": {
+        "event_id": "GS-2021-FL-0720",
+        "site_id": "site_b",
+        "grid_row": 0,
+        "grid_col": 1,
+        "headline": "Flash flood advisory issued as street runoff pools on University Ave",
+        "source": "WUFT News",
+        "published_date": "2021-07-08",
+        "event_date": "2021-07-07",
+        "location_name": "East University Ave & Waldo Rd",
+        "severity": "minor",
+        "impact_type": "Localized traffic interruption",
+        "gemini_confidence": 0.88,
+        "excerpt": "Severe afternoon storm generated localized street flooding on heavily paved intersections with minimal tree cover.",
+        "zenodo_doi": "10.5281/zenodo.18647054"
+      }
+    }
+  ]
+}
